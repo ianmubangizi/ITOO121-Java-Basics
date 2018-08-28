@@ -11,21 +11,6 @@ public class Cat extends Animal{
     super(name);
   }
 
-  // I will make this dry after Submiting to Nadi
-  @Override
-  /* 
-  * Implementing the makeSound() method from 
-  * Animal
-  * @param args String sound
-  * */
-  public void makeSound(String sound){
-    System.out.println("A "+ this.getName() 
-                        +" makes a ["
-                        + sound +"] Sound");
-  }
-  // make dry
-
-
   /*
   * Main entry point of the Cat Prog
   * @param args String[] args
